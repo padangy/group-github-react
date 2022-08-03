@@ -21,6 +21,16 @@ code {
   background-color: #4b5d48;
   height: 75vh;
 }
+.VMcontainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 80px;
+  background-color: #6d0581;
+  height: 75vh;
+  font-size: larger;
+  color: white;
+}
 .my-image {
   border: 2px solid black;
   width: 50%;
@@ -53,21 +63,46 @@ code {
   height:75vh;
   margin-top: 0;
 }
+.VMabout-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #833fa3;
+  height:75vh;
+  margin-top: 0;
+  color: white;
+  font-size: large;
+}
 
 .about-section >h1 { 
   margin: 0;
   font-size: 50px;
  
 }
+.VMabout-section >h1 { 
+  margin: 0;
+  font-size: 50px;
+}
 
 .about-section >p {
   width: 50vw;
   margin: 10px;
 }
+.VMabout-section >p {
+  width: 50vw;
+  margin: 10px;
+  font-style: italic;
+}
 
 .skills {
   height:75vh;
   background-color: #4b5d48;
+}
+.VMskills {
+  height:75vh;
+  background-color: rebeccapurple;
+  font-size: x-large;
+  color: white;
 }
 
 .skills >h1 {
